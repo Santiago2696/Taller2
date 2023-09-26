@@ -1,0 +1,18 @@
+<form action="/get-new-task" method="POST">
+    <ul>
+      <li>
+        <label for="Descripción">Descripción:</label>
+        <input type="text" value="Tarea por defecto" id="Descripcion" name="task_Description" />
+      </li>
+      <li>
+        <label for="Estado">Estado:</label>
+        <input type="text" value="No completado" id="Estado" name="task_Status" />
+      </li>
+      <li>
+        <input type="submit" value="Enviar">
+      </li>
+      <li>
+        <button><a href="http://127.0.0.1:5000">Volver a la página principal.</a></button>
+      </li>
+    </ul>
+  </form>
